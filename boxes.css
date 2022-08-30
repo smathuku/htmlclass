@@ -1,0 +1,44 @@
+div {
+
+    background-color: green;
+    display: inline-block;
+    color: white;
+    text-align: center; /* centered the text within the divs */
+}
+
+.grandparent {
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+.parent {
+    width: 40%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly
+    flex-direction: column;
+
+}
+
+
+.child {
+    background-color: brown;
+    height: 25%;
+    width: 90%;
+}
+
+.parent:last-child {
+    flex-direction :row;
+}
+
+body {margin:0;}
+/*
+* {
+    outline: 1px solid red; !important /* important overrides the previous set properties
+    margin: 0px;
+}
+*/
