@@ -19,8 +19,9 @@ div {
     width: 40%;
     background-color: aquamarine;
     display: flex;
-    justify-content: space-evenly
     flex-direction: column;
+    justify-content: space-evenly
+    
 
 }
 
@@ -32,7 +33,9 @@ div {
 }
 
 .parent:last-child {
-    flex-direction :row;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 body {margin:0;}
